@@ -5,7 +5,7 @@ import asyncio
 from datetime import datetime, timedelta
 
 # Вставьте сюда токен вашего бота из переменной окружения
-TOKEN = ''
+TOKEN = '7212305255:AAGRh8JTP9TEP_m4dCAdF0k6CDilAuTEt88'
 
 # Настройка логирования
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
@@ -18,9 +18,9 @@ INACTIVITY_LIMIT = timedelta(minutes=5)
 
 # Получатели сообщений для разных категорий
 recipients = {
-    '1': '',  # ID чата для брошей, чокеров и бус
-    '2': '',  # ID чата для жгутов и браслетов
-    '3': '',  # ID чата для кружек и изделий из полимерной глины
+    '1': '410421179',  # ID чата для брошей, чокеров и бус
+    '2': '459742891',  # ID чата для жгутов и браслетов
+    '3': '614781491',  # ID чата для кружек и изделий из полимерной глины
 }
 
 # Описание вариантов выбора
